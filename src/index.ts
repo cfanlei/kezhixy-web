@@ -1,3 +1,5 @@
 import '@/css/index'
-import '@/css/indexcss'
 console.log('index.ts');
+console.log('xxxx');
+
+import "tailwindcss/tailwind.css"

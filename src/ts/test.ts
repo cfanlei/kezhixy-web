@@ -1,2 +1,2 @@
-import '@/css/second'
+import '@/css/test'
 console.log('second...');
