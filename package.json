@@ -1,0 +1,33 @@
+{
+  "name": "kezhixy-web",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": false,
+  "main": "webpack.common.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/lodash": "^4.14.171",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve  --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
